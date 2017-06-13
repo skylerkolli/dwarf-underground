@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './Header.css'
 
+import navigation from './navigation'
+
 class Header extends Component {
     render() {
         return (
             <div className="App">
-            <Header />
+            <navigation />
             <div className="expanded row header">
         <div className="clearfix">
             <div className="float-left logo">
